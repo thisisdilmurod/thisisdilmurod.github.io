@@ -1,0 +1,170 @@
+.highlight {
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow-x: auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2), -1px -1px 2px rgba(0,0,0,0.2);
+}
+.gutter {
+  font-size: 0.875rem;
+}
+.gutter .line {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+.code {
+  font-size: 0.875rem;
+}
+.code pre {
+  padding: 0.25rem 0;
+}
+.code .line {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+.code .subst {
+  color: #2f3337;
+}
+.code .comment {
+  color: #656e77;
+}
+.code .keyword,
+.code .selector-tag,
+.code .meta .keyword,
+.code .doctag,
+.code .section {
+  color: #015692;
+}
+.code .attr {
+  color: #015692;
+}
+.code .attribute {
+  color: #803378;
+}
+.code .name,
+.code .type,
+.code .number,
+.code .selector-id,
+.code .quote,
+.code .template-tag {
+  color: #b75501;
+}
+.code .selector-class {
+  color: #015692;
+}
+.code .string,
+.code .regexp,
+.code .symbol,
+.code .variable,
+.code .template-variable,
+.code .link,
+.code .selector-attr {
+  color: #54790d;
+}
+.code .meta,
+.code .selector-pseudo {
+  color: #015692;
+}
+.code .built_in,
+.code .title,
+.code .literal {
+  color: #b75501;
+}
+.code .bullet,
+.code .code {
+  color: #535a60;
+}
+.code .meta .string {
+  color: #54790d;
+}
+.code .deletion {
+  color: #c02d2e;
+}
+.code .addition {
+  color: #2f6f44;
+}
+.code .emphasis {
+  font-style: italic;
+}
+.code .strong {
+  font-weight: bold;
+}
+.post-content h1 {
+  margin: 1.875rem 0;
+  font-size: 1.875rem;
+}
+.post-content h2 {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+.post-content h3 {
+  margin: 1.25rem 0;
+  font-size: 1.125rem;
+}
+.post-content h4 {
+  margin: 1.125rem 0;
+  font-size: 1.125rem;
+}
+.post-content h5 {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+.post-content h6 {
+  margin: 0.75rem 0;
+  font-size: 0.75rem;
+}
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  font-weight: 600;
+}
+.post-content h1::before,
+.post-content h2::before,
+.post-content h3::before,
+.post-content h4::before,
+.post-content h5::before,
+.post-content h6::before {
+  content: '$';
+  margin-right: 4px;
+  color: #f97316;
+}
+.post-content blockquote {
+  position: relative;
+  margin: 1rem 0;
+  padding: 0.5rem 0.5rem;
+  border-left: 0.25rem solid #f97316;
+  border-radius: 2px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+.post-content blockquote p {
+  margin: 0;
+}
+.post-content ul {
+  padding-left: 2rem;
+}
+.post-content ul li {
+  list-style: disc;
+}
+.post-content ol {
+  padding-left: 2rem;
+}
+.post-content ol li {
+  list-style: decimal;
+}
+.post-content p {
+  margin: 1rem 0;
+}
+.post-content a {
+  padding: 0 0.2rem;
+  color: #fb923c;
+  text-decoration: underline;
+}
+.post-content code {
+  padding: 0.2rem 0.4rem;
+  font-size: 14px;
+  color: #f97316;
+  background-color: rgba(249,115,22,0.1);
+  border-radius: 6px;
+}

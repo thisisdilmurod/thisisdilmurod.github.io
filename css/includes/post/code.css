@@ -1,0 +1,90 @@
+.highlight {
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow-x: auto;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2), -1px -1px 2px rgba(0,0,0,0.2);
+}
+.gutter {
+  font-size: 0.875rem;
+}
+.gutter .line {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+.code {
+  font-size: 0.875rem;
+}
+.code pre {
+  padding: 0.25rem 0;
+}
+.code .line {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+.code .subst {
+  color: #2f3337;
+}
+.code .comment {
+  color: #656e77;
+}
+.code .keyword,
+.code .selector-tag,
+.code .meta .keyword,
+.code .doctag,
+.code .section {
+  color: #015692;
+}
+.code .attr {
+  color: #015692;
+}
+.code .attribute {
+  color: #803378;
+}
+.code .name,
+.code .type,
+.code .number,
+.code .selector-id,
+.code .quote,
+.code .template-tag {
+  color: #b75501;
+}
+.code .selector-class {
+  color: #015692;
+}
+.code .string,
+.code .regexp,
+.code .symbol,
+.code .variable,
+.code .template-variable,
+.code .link,
+.code .selector-attr {
+  color: #54790d;
+}
+.code .meta,
+.code .selector-pseudo {
+  color: #015692;
+}
+.code .built_in,
+.code .title,
+.code .literal {
+  color: #b75501;
+}
+.code .bullet,
+.code .code {
+  color: #535a60;
+}
+.code .meta .string {
+  color: #54790d;
+}
+.code .deletion {
+  color: #c02d2e;
+}
+.code .addition {
+  color: #2f6f44;
+}
+.code .emphasis {
+  font-style: italic;
+}
+.code .strong {
+  font-weight: bold;
+}
